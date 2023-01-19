@@ -1,0 +1,48 @@
+.loading {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #F8F8F8AD;
+
+}
+
+.loader-spin {
+    left: 50%;
+    top: 40%;
+    position: absolute;
+}
+
+.marker-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.marker-btn img {
+    
+    height: 30px;
+    width: 30px;
+}
+
+.marker:active {
+    border-color: blue;
+}
+
+.control-panel {
+    width: calc(30%);
+    background: #00152970;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    
+
+    position: absolute;
+    bottom: calc(0vh);
+    left: calc(30%);
+    outline: none;
+    cursor: auto;
+  }
+  
+  .ant-drawer-body {
+    padding: 0;
+  }
